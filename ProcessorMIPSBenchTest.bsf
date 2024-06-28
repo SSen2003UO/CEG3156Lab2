@@ -1,0 +1,169 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 280 352)
+	(text "ProcessorMIPSBenchTest" (rect 5 0 111 12)(font "Arial" ))
+	(text "inst" (rect 8 320 20 332)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "ValueSelect[2..0]" (rect 0 0 67 12)(font "Arial" ))
+		(text "ValueSelect[2..0]" (rect 21 27 88 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "GClock" (rect 0 0 29 12)(font "Arial" ))
+		(text "GClock" (rect 21 43 50 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "GResetBar" (rect 0 0 46 12)(font "Arial" ))
+		(text "GResetBar" (rect 21 59 67 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 264 32)
+		(output)
+		(text "MuxOut[7..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "MuxOut[7..0]" (rect 192 27 243 39)(font "Arial" ))
+		(line (pt 264 32)(pt 248 32)(line_width 3))
+	)
+	(port
+		(pt 264 48)
+		(output)
+		(text "InstructionOut[31..0]" (rect 0 0 77 12)(font "Arial" ))
+		(text "InstructionOut[31..0]" (rect 166 43 243 55)(font "Arial" ))
+		(line (pt 264 48)(pt 248 48)(line_width 3))
+	)
+	(port
+		(pt 264 64)
+		(output)
+		(text "BranchOut" (rect 0 0 42 12)(font "Arial" ))
+		(text "BranchOut" (rect 201 59 243 71)(font "Arial" ))
+		(line (pt 264 64)(pt 248 64)(line_width 1))
+	)
+	(port
+		(pt 264 80)
+		(output)
+		(text "ZeroOut" (rect 0 0 34 12)(font "Arial" ))
+		(text "ZeroOut" (rect 209 75 243 87)(font "Arial" ))
+		(line (pt 264 80)(pt 248 80)(line_width 1))
+	)
+	(port
+		(pt 264 96)
+		(output)
+		(text "MemWriteOut" (rect 0 0 57 12)(font "Arial" ))
+		(text "MemWriteOut" (rect 186 91 243 103)(font "Arial" ))
+		(line (pt 264 96)(pt 248 96)(line_width 1))
+	)
+	(port
+		(pt 264 112)
+		(output)
+		(text "RegWriteOut" (rect 0 0 54 12)(font "Arial" ))
+		(text "RegWriteOut" (rect 189 107 243 119)(font "Arial" ))
+		(line (pt 264 112)(pt 248 112)(line_width 1))
+	)
+	(port
+		(pt 264 128)
+		(output)
+		(text "JumpO" (rect 0 0 29 12)(font "Arial" ))
+		(text "JumpO" (rect 214 123 243 135)(font "Arial" ))
+		(line (pt 264 128)(pt 248 128)(line_width 1))
+	)
+	(port
+		(pt 264 144)
+		(output)
+		(text "PCOut[31..0]" (rect 0 0 50 12)(font "Arial" ))
+		(text "PCOut[31..0]" (rect 193 139 243 151)(font "Arial" ))
+		(line (pt 264 144)(pt 248 144)(line_width 3))
+	)
+	(port
+		(pt 264 160)
+		(output)
+		(text "PCin[31..0]" (rect 0 0 42 12)(font "Arial" ))
+		(text "PCin[31..0]" (rect 201 155 243 167)(font "Arial" ))
+		(line (pt 264 160)(pt 248 160)(line_width 3))
+	)
+	(port
+		(pt 264 176)
+		(output)
+		(text "PC4AddedO[31..0]" (rect 0 0 76 12)(font "Arial" ))
+		(text "PC4AddedO[31..0]" (rect 167 171 243 183)(font "Arial" ))
+		(line (pt 264 176)(pt 248 176)(line_width 3))
+	)
+	(port
+		(pt 264 192)
+		(output)
+		(text "BranchAddressO[31..0]" (rect 0 0 94 12)(font "Arial" ))
+		(text "BranchAddressO[31..0]" (rect 149 187 243 199)(font "Arial" ))
+		(line (pt 264 192)(pt 248 192)(line_width 3))
+	)
+	(port
+		(pt 264 208)
+		(output)
+		(text "JumpAddressO[31..0]" (rect 0 0 88 12)(font "Arial" ))
+		(text "JumpAddressO[31..0]" (rect 155 203 243 215)(font "Arial" ))
+		(line (pt 264 208)(pt 248 208)(line_width 3))
+	)
+	(port
+		(pt 264 224)
+		(output)
+		(text "BranchOffsetO[31..0]" (rect 0 0 84 12)(font "Arial" ))
+		(text "BranchOffsetO[31..0]" (rect 159 219 243 231)(font "Arial" ))
+		(line (pt 264 224)(pt 248 224)(line_width 3))
+	)
+	(port
+		(pt 264 240)
+		(output)
+		(text "BranchMuxO[31..0]" (rect 0 0 76 12)(font "Arial" ))
+		(text "BranchMuxO[31..0]" (rect 167 235 243 247)(font "Arial" ))
+		(line (pt 264 240)(pt 248 240)(line_width 3))
+	)
+	(port
+		(pt 264 256)
+		(output)
+		(text "ReadReg1O[4..0]" (rect 0 0 71 12)(font "Arial" ))
+		(text "ReadReg1O[4..0]" (rect 172 251 243 263)(font "Arial" ))
+		(line (pt 264 256)(pt 248 256)(line_width 3))
+	)
+	(port
+		(pt 264 272)
+		(output)
+		(text "ReadReg2O[4..0]" (rect 0 0 73 12)(font "Arial" ))
+		(text "ReadReg2O[4..0]" (rect 170 267 243 279)(font "Arial" ))
+		(line (pt 264 272)(pt 248 272)(line_width 3))
+	)
+	(port
+		(pt 264 288)
+		(output)
+		(text "WriteRegO[4..0]" (rect 0 0 68 12)(font "Arial" ))
+		(text "WriteRegO[4..0]" (rect 175 283 243 295)(font "Arial" ))
+		(line (pt 264 288)(pt 248 288)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 248 320)(line_width 1))
+	)
+)
